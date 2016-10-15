@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ecommerce-CSS整站练习</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/main.css" />
+
+
+</head>
+<body>
+
+
+<div id="wrapper">
+<!--top开始-->
+<div id="top " class="clearfix">
+    <ul class="top-menu">
+        <li><a href="">Account Sign In</a></li>
+        <li><a href="">Register</a></li>
+        <li><a href="">Buyers Guide</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Blog</a></li>
+        <li class="no-bg"><a href="">Contact</a></li>
+    </ul>
+    <!--top-bar这种写法不好，用ul li-->
+    <!--<div class="top-bar clearfix">
+        <p class="tel">123 456 789</p>
+        <p class="help">Live Help</p>
+        <img src="img/top-canada.png" alt="1" title="Canada"/>
+        <img src="img/top-america.png" alt="1" title="America"/>
+    </div>-->
+    <ul class="top-bar">
+        <li class="img ie6-img"><a href=""><img src="img/top-america.png" alt="1" title="America"/></a></li>
+        <li class="img ie6-img"><a href=""><img src="img/top-canada.png" alt="1" title="Canada"/></a></li>
+        <li class="help"><a href="" >Live Help</a></li>
+        <li class="tel">123 456 789</li>
+    </ul>
+</div>
+<!--top结束-->
+
+<!--header开始-->
+<div id="header">
+    <div class="shopping">
+        <p>0 items in your bag</p>
+        <a href="" >Check Out</a>
+    </div>
+    <h1 title="Ecommerce Website">
+        <a href=""><img src="img/header-logo.png" alt="logo" /></a>
+    </h1>
+    <div class="search">
+        <form action="">
+            <input class='text' type="text" value="Search website" />
+            <input class="btn" type="submit" value="" />
+        </form>
+    </div>
+</div>
+<!--header结束-->
+
+<!--nav开始-->
+<ul id="nav">
+<li ><a href=""><strong><span>HOME</span></strong></a></li>
+<li><a href=""><strong><span>LATEST ARRIVALS</span></strong></a></li>
+<li><a href=""><strong><span>MEN'S</span></strong></a></li>
+<li><a href=""><strong><span>WOMEN'S</span></strong></a></li>
+<li><a href=""><strong><span>KIDS</span></strong></a></li>
+<li><a href=""><strong><span>BRANDS</span></strong></a></li>
+<li><a href=""><strong><span>SALE</span></strong></a></li>
+<li><a href=""><strong><span>GIFT CARDS</span></strong></a></li>
+<li><a href=""><strong><span>FREEBIES</span></strong></a></li>
+</ul>
+<!--nav结束-->
+
+<!--content开始-->
+<div id="content">
+    <div id="content-top">
+        <div id="content-bottom">
+            <!--banner区开始-->
+            <div id="ad">
+                <ul>
+                    <li><a href=""><img src='img/banner/01.gif' /></a></li>
+                   
+                </ul>
+                <h2>PRODUCT TITLE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit lacus dapibus ante mattis in adipiscing nibh placerat. Cras bibendum porta diam, non dignissim sapien malesuada vitae.</p>
+                <div class="bg"></div>
+            </div>
+           <!-- banner区结束-->
+           <div id="main" class="clearfix">
+               <!--侧边栏开始-->
+                <div id="side">
+                    <div class="moudle-menu">
+                        <h2><strong><span>Browse Categories</span></strong></h2>
+                        <div class="list">
+                            <ul>
+                                <li><a href="">Lorem ipsum dolor sit</a></li>
+                                <li><a href="">Amet consectetur</a></li>
+                                <li><a href="">Adipiscin elit</a></li>
+                                <li><a href="">Cras suscipit lacus</a></li>
+                                <li><a href="">Dapibus ante mattis</a></li>
+                                <li><a href="">Adipiscing nibh placerat</a></li>
+                                <li><a href="">Cras bibendum</a></li>
+                                <li><a href="">Porta diam elit</a></li>
+                                <li><a href="">Adipiscing nibh placerat</a></li>
+                                <li><a href="">Cras bibendum</a></li>
+                                <li><a href="">Porta diam elit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="module-join">
+                        <div class="module-join-t">
+                            <div class="module-join-b">
+                            <div class="join-form">
+                                 <p>Join our newsletter list<br />to get the latest updates</p>
+                                    <form action="#">
+                                        <input type="text" class='text' />
+                                        <input type="submit" class="btn" value="Join Now"/>
+                                    </form>
+                            </div>
+                               
+                                <ul class="join-list">
+                                    <li class="twitter"><a href="">Follow us on Twitter</a></li>
+                                    <li class="facebook"><a href="">Become our fan
+on Facebook</a></li>
+                                    <li class="linkin"><a href="">Connect with us
+on LinkedIn</a></li>
+                                    <li class="email"><a href="">Send us your
+email enquiries</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="payment">
+                    <img src="img/payment.gif"  />
+                    </div>
+                </div>
+               <!-- 侧边栏结束-->
+               
+               <!--商品区开始-->
+                <div id="wrap">
+                    <div class="sort">
+                        <dl>
+                            <dt>Sort by:</dt>
+                            <dd>
+                                <h2>Ascending</h2>
+                                <a  href="javascript:;"></a>
+                                <ul>
+                                    <li class="active">menu1</li>
+                                    <li>menu2</li>
+                                    <li>menu3</li>
+                                </ul>
+                            </dd>
+                            <dd>
+                                <h2>Product Name</h2>
+                                <a  href="javascript:;"></a>
+                                <ul>
+                                    <li class="active">menu1</li>
+                                    <li>menu2</li>
+                                    <li>menu3</li>
+                                </ul>
+                            </dd>
+                            <dd>
+                                <h2>Brandname</h2>
+                                <a  href="javascript:;"></a>
+                                <ul>
+                                    <li class="active">menu1</li>
+                                    <li>menu2</li>
+                                    <li>menu3</li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <p>
+                            <strong>Items per page:</strong>
+                            <span>12</span> / <span>20</span> / <span class="color-style">30</span> / <span class="color-style">50</span>
+                        </p>
+                    </div>
+                    <div class="pic-list">
+                        <h2>Our Products</h2>
+                        <ul>
+                            <li>
+                                <a href><img src="img/pic-list/1.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/2.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/3.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/4.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/5.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/6.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/7.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/8.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/9.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/10.jpg" alt=""/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/11.jpg" />
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                            <li>
+                                <a href><img src="img/pic-list/12.jpg"/>
+                                <h3>Product Name</h3>
+                                <p>Price: <span>$12.99</span></p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="page">
+                        <a class="active" href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="">NEXT <span>></span></a>
+                        <a href="">LAST <span>>></span></a>
+                    </div>
+                <div class="scroll-list">
+                    <h2>FEATURED PRODUCTS</h2>
+                    <div class="scroll-wrap">
+                        <div class="scroll-wrap-l">
+                            <div class="scroll-wrap-r">
+                                <a class="prev" href="javascript:;"></a>
+                                <a class="next" href="javascript:;"></a>
+                                <div class="list-wrap">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href=""><img src="img/scroll-pic/01.jpg" /></a>
+                                        <p>Elegant MP3 player skin PSD download</p>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/scroll-pic/02.jpg" /></a>
+                                        <p>Download shopping bag & icons (PSD & PNG)</p>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/scroll-pic/03.jpg" /></a>
+                                        <p>High resolution abstract bokeh background</p>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!--商品区结束-->
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!--content结束-->
+
+</div>
+<!--footer开始-->
+<div id="footer-bar">
+    <div id="wrapper">
+        <img src="img/footer-img.png" />
+        <div class="search">
+            <form action="">
+                <input class='text' type="text" value="Search website" />
+                <input class="btn" type="submit" value="" />
+            </form>
+        </div>
+    </div>
+</div>
+<div id="footer-contact">
+    <div id="wrapper">
+        <ul class="clearfix">
+            <li>Company
+                <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Latest News</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Join Us</a></li>
+                </ul>
+            </li>
+            <li>Categories
+                <ul>
+                <li><a href="">Lorem ipsum dolor sit</a></li>
+                <li><a href="">Amet consectetur</a></li>
+                <li><a href="">Adipiscin elit</a></li>
+                <li><a href="">Cras suscipit lacus</a></li>
+                <li><a href="">Dapibus ante mattis</a></li>
+                <li><a href="">Adipiscing nibh placerat</a></li>
+                </ul>
+            </li>
+            <li>Information
+                <ul>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Rewards</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Buying Guide</a></li>
+                <li><a href="">FAQ</a></li>
+                </ul>
+            </li>
+            <li>Social Network
+                <ul>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Rewards</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Buying Guide</a></li>
+                <li><a href="">FAQ</a></li>
+                </ul>
+            </li>
+            <li>Contact Us
+                <ul>
+                <li><a href="">Phone: 1 234 567 8901</a></li>
+                <li><a href="">Toll-Free: 1 234 567 8901</a></li>
+                <li><a href="">Fax: 1 234 567 8901</a></li>
+                <li class="email"><a href="">Email: <span class="email">Send us an email</span></a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="worktime">
+            <p>MON - SAT 	9am to 7:30pm</p>
+            <p>Sundays, holidays closed</p>
+        </div>
+    </div>
+</div>
+<!--footer结束-->
+
+<!--解决IE6不认PNG的问题-->
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+
+</body>
+</html>
